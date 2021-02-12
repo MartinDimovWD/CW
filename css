@@ -1,0 +1,245 @@
+body {
+	background-color: rgb(102, 96, 116);
+	font-family: Cabin;
+	margin: 0;
+}
+
+h1 {
+	color: rgb(255, 210, 112);
+	text-align: center;
+	font-size: 60px;
+	font-family: Anton;
+	letter-spacing: 8px;
+}
+
+#intro-cont {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	background-color: rgb(206, 206, 206);
+	font-size: 28px;
+	padding: 20px 200px;
+	margin: auto;
+}
+
+#profile {
+	display: flex;
+	justify-content: space-around;
+	background-color: rgb(102, 96, 116);
+	padding: 0;
+	padding-top: 30px;
+	text-align: center;
+}
+h2 {
+	font-size: 40px;
+}
+#profile h3 {
+	font-size: 25px;
+	background-color: rgb(102, 96, 116);
+	color: rgb(255, 210, 112);
+	letter-spacing: 3px;
+}
+
+#profile-info {
+	background-color: rgb(206, 206, 206);
+	display: flex;
+	flex-direction: column;
+	width: 40rem;
+}
+#profile-info p {
+	font-size: 24px;
+	font-weight: bold;
+	border-bottom: 1px solid grey;
+	margin: 10px 50px;
+}
+
+#profile-pic img {
+	display: flex;
+	height: 450px;
+	padding-top: 30px;
+	border-radius: 20%;
+}
+
+#kata-section {
+	margin-top: 80px;
+}
+
+#kata-section h2 {
+	color: rgb(255, 210, 112);
+	background-color: rgb(102, 96, 116);
+	text-align: center;
+	padding: 20px 50px;
+	font-size: 60px;
+	letter-spacing: 5px;
+}
+
+.katas {
+	margin: 0;
+	background-color: rgb(161, 161, 161);
+	width: 96%;
+}
+.kata-exercises {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	padding: 25px 10px;
+	font-size: 21px;
+}
+
+.kata-instructions {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	width: 50%;
+	border-right: 2px solid rgb(105, 105, 105);
+	padding: 10px 80px;
+}
+.kata-instructions p {
+	display: flex;
+	flex-direction: column;
+}
+
+.kata-instructions p code {
+	margin-top: 10px;
+}
+
+.kata-solutions {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 50%;
+	padding: 10px 80px;
+}
+
+.katas h3 {
+	font-size: 25px;
+	background-color: rgb(197, 193, 207);
+	letter-spacing: 3px;
+	text-align: center;
+	padding: 15px 0px;
+}
+
+.katas h4 {
+	font-size: 23px;
+	display: flex;
+	align-self: center;
+}
+
+.kata-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+code {
+	display: block;
+	background-color: rgb(43, 42, 42);
+	color: rgb(167, 253, 253);
+	padding-top: 10px;
+	font-size: 16px;
+}
+
+.examples {
+	display: block;
+	color: yellow;
+	margin-top: 10px;
+}
+
+code {
+	display: inline-block;
+	width: 30rem;
+	padding: 3rem 5rem 3rem 2rem;
+	margin-top: 20px;
+}
+
+.light-bg {
+	background-color: rgb(148, 148, 148);
+	height: 100%;
+	width: 100%;
+	padding: 20px;
+	border-top-left-radius: 5%;
+}
+
+#add-kata {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+#add-kata h2 {
+	color: rgb(255, 210, 112);
+	background-color: rgb(102, 96, 116);
+	text-align: center;
+	padding: 20px 50px;
+	font-size: 60px;
+	letter-spacing: 5px;
+}
+
+#kata-submission-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 100px;
+	padding: 50px 0px;
+	height: 100%;
+	width: 70%;
+	border: 1px solid white;
+	border-radius: 20px;
+}
+
+label {
+	display: block;
+	font-size: 25px;
+	color: rgb(255, 210, 112);
+	margin-bottom: 3px;
+}
+
+textarea {
+	font-size: 17px;
+}
+
+.form-code {
+	background-color: rgb(43, 42, 42);
+	color: rgb(167, 253, 253);
+}
+
+.form-code::placeholder {
+	background-color: rgb(43, 42, 42);
+	color: rgb(233, 233, 233);
+}
+
+.publish {
+	display: flex;
+	margin-top: 20px;
+	padding: 10px 60px;
+	font-size: 25px;
+	font-weight: bold;
+	background-color: rgb(255, 210, 112);
+}
+
+.publish:hover {
+	background-color: rgb(252, 198, 84);
+	outline-width: 0px;
+}
+
+.btn-examples {
+	display: flex;
+	justify-content: center;
+	width: 200px;
+	padding: 7px 0px;
+	font-size: 15px;
+}
+
+#btn-examples-container {
+	margin: 10px 0px;
+	display: flex;
+	justify-content: space-around;
+}
+
+footer {
+	height: 100px;
+	display: flex;
+	justify-content: center;
+}

@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="cdwars.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Cabin:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <h1>CodeWars Challenges</h1>
+  <div id="intro-cont">
+    <section>
+      <p>This page is created to showcase the CODEWARS challenges that I have completed.
+        Here
+        I will compare my solutions to the best and most clever solutions of other CW developers.
+      </p>
+    </section>
+  </div>
+
+
+
+
+
+
+
+  <section id="add-kata">
+    <h2>Add new Kata</h2>
+    <div id="kata-submission-container">
+
+      <form action="#####">
+        <label for="">Kata Name</label>
+        <textarea name="KataName" id="KataName" cols="60" rows="2"
+          placeholder="Enter the rank of the Kata and its name."></textarea>
+        <label for="">Instructions</label>
+        <textarea name="KataInstructions" id="KataInstructions" cols="60" rows="3"
+          placeholder="Type the instructions for the Kata and some examples if available."></textarea>
+        <label for="">Example</label>
+        <textarea name="KataExamples" id="KataExamples" cols="60" rows="2"
+          placeholder="Provide some example codes or expected output."></textarea>
+        </textarea>
+        <div id="btn-examples-container">
+          <button class="btn-examples">Add new Example</button><button class="btn-examples">Delete Example</button>
+        </div>
+        <label for="">My Solution</label>
+        <textarea name="MySolutio" class="form-code" id="MySolution" cols="60" rows="10"
+          placeholder="  function() {"></textarea>
+        <label for="">Best CW Solution</label>
+        <textarea name="BestSolution" class="form-code" id="BestSolution" cols="60" rows="10"
+          placeholder="  function() {"></textarea>
+
+        <button class="publish" id="btn-publish">Publish</button>
+      </form>
+    </div>
+  </section>
+
+
+
+
+
+
+  <div id="profile">
+
+    <div id="profile-info">
+      <h2>Personal Profile</h2>
+      <h3>Name</h3>
+      <p>Martin Dimov a.k.a MartinDimovWD</p>
+      <h3>Current Rank</h3>
+      <p>6kyu / Honor 109</p>
+      <h3>Progress to next rank</h3>
+      <p>0.0%</p>
+      <h3>Kata completed</h3>
+      <p>16</p>
+      <h3>Programming Language</h3>
+      <p>JavaScript</p>
+      <h3>Member since:</h3>
+      <p>December 2020</p>
+    </div>
+    <div id="profile-pic">
+      <img
+        src="https://scontent.fsof10-1.fna.fbcdn.net/v/t1.0-9/72851714_10220155643265206_504355789071187968_n.jpg?_nc_cat=101&ccb=2&_nc_sid=174925&_nc_ohc=6dBzuSEhuesAX-fDiFK&_nc_ht=scontent.fsof10-1.fna&oh=7f87434e33c943f058692f49eb1c1807&oe=6031AB48"
+        alt="">
+      <img
+        src="https://previews.dropbox.com/p/thumb/ABDsItvzLOc2WWU1ysuFLvjgz64w5jG0chlmEE4kG8g0Cof_ScrwnL6tU-Br5A_HmOP3r1xDCaaPMO27QXECxXXk_lr3cRPuCOd5teaCzOeza_MISvzLWpokZHJcN2xGK4nUbr97s0pEOAQy2Onah8vSzFIe3hlQcG09Ctjc-f7bDQcs1L0VoLYNukZ_Clv-QC2vruWYbfqwXA1zDwIZQi2HfNtw2ZQ-RlD6C4nFTAFwAaDeRb-LT-Q2k9Hhu4PcXen4CKsitlYl-wIqo1tJvNASo4ATZNdw-t728FBYj-N1_rnx3VvNNDTZOuagCzh1T07xzBcUjaQ2Lx1Wr-a8HPBLN_Zgk2yV0HAR5nt_PKEJ7Q/p.png?fv_content=true&size_mode=5"
+        alt="">
+    </div>
+
+  </div>
+
+  <section id="kata-section">
+    <h2>Kata</h2>
+    <div class="kata-container">
+      <div class="katas">
+        <h3>(8kyu) Multiply</h3>
+        <div class="kata-exercises">
+          <div class="kata-instructions">
+            <div class="light-bg">
+              <h4>Instructions</h4>
+              <p>This code does not execute properly. Try to figure out why.
+                <code>function multiply(a, b){ <br>
+                         a * b <br>
+                          }</code>
+              </p>
+            </div>
+          </div>
+          <div class="kata-solutions">
+            <div class="light-bg">
+              <h4>My solution</h4><code>function multiply(a, b){ <br>
+                          return a * b <br>
+                            }</code>
+              <h4>Best CW solution</h4><code>multiply = function (a, b) { <br>
+                           return a * b; <br>
+                             }</code>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="katas">
+        <h3>(7kyu) String ends with?</h3>
+        <div class="kata-exercises">
+          <div class="kata-instructions">
+            <div class="light-bg">
+              <h4>Instructions</h4>
+              <p>Complete the solution so that it returns true if the first argument(string) passed in ends
+                with
+                the
+                2nd
+                argument (also a string).
+                <span class="examples">Examples:</span>
+                <code>
+                              solution('abc', 'bc') // returns true <br>
+                              solution('abc', 'd') // returns false</code>
+
+                <code>function solution(str, ending){
+                             // TODO: complete
+                         }</code>
+              </p>
+            </div>
+          </div>
+          <div class="kata-solutions">
+            <div class="light-bg">
+              <h4>My solution</h4><code>function solution(str, ending){ <br>
+                          if(str.endsWith(ending) === true) {<br>
+                            return true;<br>
+                              } else {<br>
+                            return false
+                              } <br>
+                                 }</code>
+              <h4>Best CW solution</h4><code>function solution(str, ending){ <br>
+                                 return str.endsWith(ending) <br>
+                                }</code>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="katas">
+        <h3>(7kyu) Make a function that does arithmetic</h3>
+        <div class="kata-exercises">
+          <div class="kata-instructions">
+            <div class="light-bg">
+              <h4>Instructions</h4>
+              <p>Given two numbers and an arithmetic operator (the name of it, as a string), return the result
+                of
+                the
+                two
+                numbers having that operator used on them.
+
+                a and b will both be positive integers, and a will always be the first number in the
+                operation,
+                and
+                b
+                always
+                the second.
+
+                The four operators are "add", "subtract", "divide", "multiply".
+
+                <span class="examples">A few examples:</span>
+                <code>arithmetic(5, 2, "add")      => returns 7 <br>
+                               arithmetic(5, 2, "subtract") => returns 3 <br>
+                               arithmetic(5, 2, "multiply") => returns 10 <br>
+                               arithmetic(5, 2, "divide")   => returns 2.5 <br></code> <br>
+                <code>ArithmeticFunction.arithmetic(5, 2, "add")      => returns 7 <br>
+                               ArithmeticFunction.arithmetic(5, 2, "subtract") => returns 3 <br>
+                               ArithmeticFunction.arithmetic(5, 2, "multiply") => returns 10 <br>
+                               ArithmeticFunction.arithmetic(5, 2, "divide")   => returns 2 <br></code>
+              </p>
+            </div>
+          </div>
+          <div class="kata-solutions">
+            <div class="light-bg">
+              <h4>My solution</h4><code>function arithmetic(a, b, operator){ <br>
+                                   if(operator === "add"){ <br>
+                                     return a + b; <br>
+                                   } else if(operator === "subtract"){ <br>
+                                     return a - b; <br>
+                                   } else if(operator === "multiply"){ <br>
+                                     return a * b;  <br>
+                                   } else if(operator === "divide"){ <br>
+                                       return a/b; <br>
+                                     }
+                                   }</code>
+              <h4>Best CW solution</h4><code>function arithmetic(a, b, operator){ <br>
+                                  switch(operator) { <br>
+                                    case 'add': <br>
+                                      return a + b; <br>
+                                    case 'subtract': <br>
+                                      return a - b; <br>
+                                    case 'multiply': <br>
+                                      return a * b; <br>
+                                    case 'divide': <br>
+                                      return a / b; <br>
+                                  }
+                                }</code>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="katas">
+        <h3>(7kyu) Square Every Digit
+        </h3>
+        <div class="kata-exercises">
+          <div class="kata-instructions">
+            <div class="light-bg">
+              <h4>Instructions</h4>
+              <p>Welcome. In this kata, you are asked to square every digit of a number and concatenate them.
+
+                For example, if we run 9119 through the function, 811181 will come out, because 92 is 81 and
+                12 is 1.
+
+                Note: The function accepts an integer and returns an integer
+              </p>
+            </div>
+          </div>
+          <div class="kata-solutions">
+            <div class="light-bg">
+              <h4>My solution</h4><code>function squareDigits(num){ <br>
+                            num = String(num).split("").map(item => Number(item));<br>
+                               num = num.map(sq => {<br>
+                                 return sq*sq;<br>
+                               }) <br>
+                               return parseInt(num.join("")); <br>
+                           }</code>
+              <h4>Best CW solution</h4><code>function squareDigits(num){ <br>
+                            return Number(('' + num).split('').map(function (val) { return val * val;}).join('')); <br>
+                            
+                          }</code>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <ul>
+      <li>Back to top</li>
+      <li>Profile</li>
+      <li>Katas</li>
+    </ul>
+
+  </footer>
+
+  <script src="codewars-js.js"></script>
+  <script src="cool_stuff.js"></script>
+
+</body>
+
+</html>
